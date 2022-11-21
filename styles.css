@@ -1,0 +1,37 @@
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+      -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+:root {
+  --bgcolor: #121212;
+  --vertexcolor: #ececec;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
+
+body {
+  background-color: var(--bgcolor);
+  margin: 0;
+  overflow: hidden;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  background-color: #0F111A;
+}
+
+canvas {
+  flex: 0 0 500px;
+  background-color: #0F111A;
+  cursor: move;
+}
