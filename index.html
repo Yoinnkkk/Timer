@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
@@ -13,6 +10,20 @@
     <title>Timer</title>
 </head>
 <body>
-
+  <h1 onclick="modeSwap()" id="text" class="noselect"> Timer </h1>
+  <div class="wrapper noselect" id="wrapper">
+    <div class="time">
+      <h2 id="hours">00</h2>
+      <small>Hours</small>
+    </div>
+    <div class="time">
+      <h2 id="minutes">00</h2>
+      <small>Minutes</small>
+    </div>
+    <div class="time">
+      <h2 id="seconds">00</h2>
+      <small>Seconds</small>
+    </div>
+  </div>
 </body>
 </html>
