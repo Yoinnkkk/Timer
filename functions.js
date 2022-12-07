@@ -4,3 +4,7 @@ function modeSwap() {
     const text = document.getElementById("text");
     text.style.color = `rgba(${Math.round(Math.random()*255)},${Math.round(Math.random()*255)},${Math.round(Math.random()*255)},.7)`
 }
+
+function bozo(){
+    console.log("bozo");
+}
